@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('../fonts/SegoeUI.eot');
+	src: local('Segoe UI'), local('SegoeUI'),
+		url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+		url('SegoeUI.woff') format('woff'),
+		url('SegoeUI.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #23232e;
+	height: 850px;
+	z-index: 100;
+}
+
+div.logo, div.head_cont {
+	width: 940px;
+	margin: 0 auto;
+	display: block;
+}
+
+div.logo {
+	position: relative;
+	left: 50%;
+	transform: translateX(-25%);
+}
+
+div.logo > img{
+	width: 68px;
+	height: 68px;
+	padding-top: 70px;
+}
+
+div.head_cont h1, div.head_cont p, div.main .page_1, div.main .page_2, div.mainer {
+	text-align: center;
+	color: #fff;
+}
+
+div.head_cont h1 {
+	font-size: 80px;
+	padding-top: 188px;
+	font-family: 'Segoe UI';
+	font-weight: bold;
+}
+
+div.head_cont p {
+	font-size: 18px;
+	padding-top: 35px;
+	line-height: 30px;
+	font-family: 'Segoe UI';
+	font-weight: 400;
+}
+
+div.head_cont img {
+	padding-top: 185px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-25%);
+}
+
+div.mainer {
+	background: url('../img/bg.png');
+	width: 100%;
+	height: 1042px;
+}
+
+div.main .page_1 {
+	font-family: 'Segoe UI';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 42px;
+	color: #464b4f;
+	padding-top: 125px;
+}
+
+div.main .page_2 {
+	font-family: 'Segoe UI';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 42px;
+	color: #464b4f;
+	padding-top: 56px;
+}
+
+div.main h1 {
+	font-family: 'Segoe UI';
+	color:  #464b4f;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 36px;
+	text-align: center;
+	padding-top: 128px;
+}
+
+ div.blocks {
+	display: inline-block;
+	margin-top: -230px;
+}
+
+div.block-1, div.block-2, div.block-3 {
+	width: 313px;
+}
+
+div.block-1 h2, div.block-2 h2, div.block-3 h2 {
+	font-family: 'Segoe UI';
+	color:  #464b4f;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 42px;
+	text-align: left;
+}
+
+div.block-1 p, div.block-2 p, div.block-3 p  {
+	font-family: 'Segoe UI';
+	color:  #888a8b;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+}
+
+div.block-1 {
+	position: relative;
+	left: -313px;
+	top: 328px;
+}
+
+div.block-2 {
+	position: relative;
+	left: 0px;
+	top: 167px;
+}
+
+div.block-3 {
+	position: relative;
+	left: 313px;
+	top: 6px;
+}
